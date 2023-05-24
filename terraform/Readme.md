@@ -1,6 +1,6 @@
-### Heading level 3
+## Installing
 
-Install terraform in linux
+#### Install terraform in linux
 <pre><code>
 sudo yum install -y yum-utils
 </code></pre>
@@ -14,6 +14,17 @@ sudo yum -y install terraform
 terraform -v
 </code></pre>
 
+#### Installing ovftool
+Download ovftool from https://customerconnect.vmware.com/downloads/get-download?downloadGroup=OVFTOOL443
+<pre><code>
+sudo ./VMware-ovftool-4.4.3-18663434-lin.x86_64.bundle --extract ovftool && cd ovftool
+</code></pre>
+<pre><code>
+./VMware-ovftool-4.4.3-18663434-lin.x86_64.bundle
+</code></pre>
+
+
+### Testing
 Run the script
 <pre><code>
 terraform init
